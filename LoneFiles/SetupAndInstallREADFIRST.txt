@@ -1,0 +1,99 @@
+**================================== PLEASE READ THE COMPLETE INSTRUCTIONS ==============================**
+
+Thank you for purchasing the Lone Traveler WordPress theme. This guide will cover installation, setup, and customization options.
+
+**Free Installation and Setup Assistance**
+
+If you would like me to install and set up this theme for you FOR FREE, please email me at acdev@aaroncrighton.com or PM me on Etsy. I will also provide up to 3 revisions free of charge if you need any modifications.
+
+**Hosting Requirements**
+
+You will need a self-hosting service (e.g., WPEngine, Hostinger, Siteground, Bluehost, Dreamhost) to host this theme. It will NOT work on any WordPress.com plan.
+
+**---------------------------------------------- Installation ---------------------------------------------**
+
+1. **Recommended Installation Method: All-In-One WP Migration Plugin**
+
+   This method is faster and easier. Use the All-In-One WP Migration plugin to import the demo content and database file included in your purchase, named "localhost-20211011-045707-vm52ni.wpress". This will make your site look exactly like the demo.
+
+   **Steps:**
+   1. Install WordPress on your hosting provider.
+   2. Go to "Plugins" in the admin panel.
+   3. Click "Add New" and search for "All-In-One WP Migration".
+   4. Install and activate the plugin.
+   5. Click on the plugin link in the admin panel, then choose "Import".
+   6. Unzip the downloaded folder and upload the file named "localhost-20211031-170610-ud5fka.wpress".
+   7. Ensure the theme is activated by clicking "Appearance" > "Themes". Activate the Lone Traveler child theme.
+
+   **Login:**
+   After importing the file, you might be prompted to enter a username and password. Use:
+   - Username: LoneTraveler
+   - Password: lonetraveler
+
+   **Switch to Your Own Account:**
+   1. Click on "Users" > "Add New" to create your own account.
+   2. Log out of the "LoneTraveler" account and log in with your new credentials.
+   3. Delete the demo user.
+
+   **You're now done with the installation!**
+
+2. **Manual Installation Method**
+
+   This method is more time-consuming and involves manually installing the theme files.
+
+   **Steps:**
+   1. After installing WordPress, go to "Appearance" > "Themes" > "Add New" > "Upload Theme".
+   2. Upload the parent theme folder "bootScore-5", followed by the child theme folder.
+   3. Activate the child theme under "Appearance" > "Themes".
+   4. To load demo content, use the included XML file. Go to "Tools" > "Import" and load the XML file.
+
+**======================================== Customizing ===================================================**
+
+1. **General Customization**
+
+   This theme uses the Gutenberg block editor, and all customizable areas are under "Widgets" in the Customizer. You can use various plugins for additional functionality (e.g., Smash Balloons for Instagram feeds).
+
+2. **Pages and Menus**
+
+   1. Create a new page for Home and set the page template to "Front Page".
+   2. Ensure menus are set up under "Appearance" > "Menus". Create a new menu if necessary and assign it to the appropriate location.
+   3. Set the homepage display to "A Static Page" under "Settings" > "Reading" and select the Home page you created.
+
+3. **Widgets and Blocks**
+
+   Customize various sections of the theme using blocks. For example:
+   - **Navbar Logo**: Add an Image or Text block.
+   - **Slider Images**: Add images of at least 1280x854.
+   - **Slider Buttons**: Use custom HTML code for buttons.
+   - **Social Icons**: Use Font Awesome code snippets.
+
+   **Example Button Code:**
+   ```html
+   <a class="btn btn-outline-light btn-lg" href="#LINK" role="button">Read More</a>
+   ```
+   Replace `#LINK` with your URL.
+
+4. **Footer Customization**
+
+   Customize the footer with social icons, newsletter signups, and navigation menus. Use Font Awesome icons and the Newsletter plugin for additional functionality.
+
+   **Example Social Icons Code:**
+   ```html
+   <div class="social-icons">
+     <a href="#"><i class="fab fa-instagram"></i></a>
+     <a href="#"><i class="fab fa-facebook"></i></a>
+     <a href="#"><i class="fab fa-twitter"></i></a>
+     <a href="#"><i class="fab fa-pinterest"></i></a>
+   </div>
+   ```
+   Replace the `#` with your social media URLs.
+
+**=============================================== Colors ================================================**
+
+You can change theme colors from the Customizer panel under "Colors". Adjust the colors for different sections and return to the default anytime.
+
+**============================================== DISCLAIMER ==============================================**
+
+This theme is under the GNU General Public License v2 or later, found at [GNU GPL v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
+
+By purchasing and using this theme, you agree that it is not unique to you and I can sell it multiple times. You are free to use it for personal or commercial purposes.
